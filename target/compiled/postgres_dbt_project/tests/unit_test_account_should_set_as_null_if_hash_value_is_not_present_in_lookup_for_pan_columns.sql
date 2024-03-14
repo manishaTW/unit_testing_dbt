@@ -1,0 +1,35 @@
+-- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+      
+      select * from (select 1) as t where False    
+      
+  
+  
+  
+
+    
+  

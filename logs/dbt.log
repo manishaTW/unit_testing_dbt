@@ -1,0 +1,1891 @@
+[0m13:56:58.879164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c7f0490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c39f950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c85e490>]}
+
+
+============================== 13:56:58.885187 | 7c8d2333-b6b6-4dfd-9cfe-358f28af547a ==============================
+[0m13:56:58.885187 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:56:58.886029 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/manishaj/gpn/unit_testing_dbt/logs', 'profiles_dir': '/Users/manishaj/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt deps --vars {is_metro: "true","client_id":"2221"}', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:56:59.002975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7c8d2333-b6b6-4dfd-9cfe-358f28af547a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8c4550>]}
+[0m13:56:59.004482 [debug] [MainThread]: Set downloads directory='/var/folders/xt/04dnpghs6pg6g6c779f38b8m0000gn/T/dbt-downloads-iq_q8wi1'
+[0m13:56:59.005020 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m13:56:59.255893 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m13:56:59.257942 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/EqualExperts/dbt_unit_testing.json
+[0m13:56:59.892702 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/EqualExperts/dbt_unit_testing.json 200
+[0m13:56:59.896513 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m13:57:00.093708 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m13:57:00.113339 [info ] [MainThread]: Updating lock file in file path: /Users/manishaj/gpn/unit_testing_dbt/package-lock.yml
+[0m13:57:00.120151 [debug] [MainThread]: Set downloads directory='/var/folders/xt/04dnpghs6pg6g6c779f38b8m0000gn/T/dbt-downloads-drbinos0'
+[0m13:57:00.132741 [info ] [MainThread]: Installing EqualExperts/dbt_unit_testing
+[0m13:57:00.670887 [info ] [MainThread]: Installed from version 0.4.12
+[0m13:57:00.671571 [info ] [MainThread]: Up to date!
+[0m13:57:00.672541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7c8d2333-b6b6-4dfd-9cfe-358f28af547a', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c90bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c39f9d0>]}
+[0m13:57:00.673690 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m13:57:01.186926 [info ] [MainThread]: Installed from version 1.1.1
+[0m13:57:01.187551 [info ] [MainThread]: Up to date!
+[0m13:57:01.188147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7c8d2333-b6b6-4dfd-9cfe-358f28af547a', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8c6850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c96a850>]}
+[0m13:57:01.192269 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 2.3833323, "process_user_time": 2.229469, "process_kernel_time": 0.43874, "process_mem_max_rss": "97857536", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:57:01.193309 [debug] [MainThread]: Command `dbt deps` succeeded at 13:57:01.193047 after 2.38 seconds
+[0m13:57:01.193899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10870e110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087cdd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c70b250>]}
+[0m13:57:01.194618 [debug] [MainThread]: Flushing usage events
+[0m14:04:16.265245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106896910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068e8ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10690ac50>]}
+
+
+============================== 14:04:16.271559 | a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3 ==============================
+[0m14:04:16.271559 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:04:16.272375 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/manishaj/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/manishaj/gpn/unit_testing_dbt/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test --select tag:unit-test --vars {"client_id":"2221"}', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:04:16.525156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e38650>]}
+[0m14:04:16.606810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e60090>]}
+[0m14:04:16.608192 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m14:04:16.642121 [debug] [MainThread]: checksum: 95db31d823afa5825a9f9d4ebd87e519c2a8b05013bdfb98736c11cb2425d270, vars: {'client_id': '2221'}, profile: , target: , version: 1.7.9
+[0m14:04:16.643899 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:04:16.644564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106896b90>]}
+[0m14:04:18.183006 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'city' in the 'models' section of file 'models/cpm/schema.yml'
+[0m14:04:18.184279 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'account_raw' in the 'models' section of file 'models/cpm/schema.yml'
+[0m14:04:18.275871 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.postgres_dbt_project.unique_city_id.eb790a9765' (models/cpm/schema.yml) depends on a node named 'city' in package '' which was not found
+[0m14:04:18.276614 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.postgres_dbt_project.not_null_city_id.afbe408ca6' (models/cpm/schema.yml) depends on a node named 'city' in package '' which was not found
+[0m14:04:18.335956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077af690>]}
+[0m14:04:18.355978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079144d0>]}
+[0m14:04:18.356653 [info ] [MainThread]: Found 3 models, 4 tests, 1 source, 0 exposures, 0 metrics, 593 macros, 0 groups, 0 semantic models
+[0m14:04:18.357214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107562f10>]}
+[0m14:04:18.359312 [info ] [MainThread]: 
+[0m14:04:18.360293 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m14:04:18.362451 [debug] [ThreadPool]: Acquiring new postgres connection 'list_sample_db_sample_test_2221_rfn_db'
+[0m14:04:18.377222 [debug] [ThreadPool]: Using postgres connection "list_sample_db_sample_test_2221_rfn_db"
+[0m14:04:18.378407 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: BEGIN
+[0m14:04:18.378970 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:04:18.440029 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:18.440544 [debug] [ThreadPool]: Using postgres connection "list_sample_db_sample_test_2221_rfn_db"
+[0m14:04:18.440998 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "connection_name": "list_sample_db_sample_test_2221_rfn_db"} */
+select
+      'sample_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'sample_test_2221_rfn_db'
+    union all
+    select
+      'sample_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'sample_test_2221_rfn_db'
+    union all
+    select
+      'sample_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'sample_test_2221_rfn_db'
+  
+[0m14:04:18.448435 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m14:04:18.450275 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: ROLLBACK
+[0m14:04:18.450911 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: Close
+[0m14:04:18.458210 [debug] [MainThread]: Using postgres connection "master"
+[0m14:04:18.458716 [debug] [MainThread]: On master: BEGIN
+[0m14:04:18.459123 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:04:18.474915 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:18.475420 [debug] [MainThread]: Using postgres connection "master"
+[0m14:04:18.475953 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m14:04:18.510334 [debug] [MainThread]: SQL status: SELECT 64 in 0.0 seconds
+[0m14:04:18.513900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a31da5bc-60b5-4d24-b1ca-b0c87e1c79a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10768f550>]}
+[0m14:04:18.514452 [debug] [MainThread]: On master: ROLLBACK
+[0m14:04:18.515009 [debug] [MainThread]: Using postgres connection "master"
+[0m14:04:18.515409 [debug] [MainThread]: On master: BEGIN
+[0m14:04:18.516040 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:18.516444 [debug] [MainThread]: On master: COMMIT
+[0m14:04:18.516832 [debug] [MainThread]: Using postgres connection "master"
+[0m14:04:18.517206 [debug] [MainThread]: On master: COMMIT
+[0m14:04:18.517704 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m14:04:18.518089 [debug] [MainThread]: On master: Close
+[0m14:04:18.518834 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:04:18.519249 [info ] [MainThread]: 
+[0m14:04:18.521847 [debug] [Thread-1 (]: Began running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:04:18.522415 [info ] [Thread-1 (]: 1 of 3 START test unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns  [RUN]
+[0m14:04:18.523290 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_sample_db_sample_test_2221_rfn_db, now test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns)
+[0m14:04:18.523779 [debug] [Thread-1 (]: Began compiling node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:04:18.682683 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.683210 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+
+    
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+    
+  
+[0m14:04:18.683604 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:04:18.695870 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.715614 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.716124 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+
+    select * FROM 
+      (select count(1) as expectation_count from (
+        select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+      ) as exp) as exp_count,
+      (select count(1) as actual_count from (
+        select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select  details,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_id from "account_raw"
+    )
+    )
+ as account_id,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_number from "account_raw"
+    )
+    )
+ as account_number
+   from
+       account_raw
+    )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+      ) as act) as act_count
+  
+[0m14:04:18.718221 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.720864 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.721357 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+
+    with expectations as (
+      select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+    ),
+    actual as (
+      select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select  details,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_id from "account_raw"
+    )
+    )
+ as account_id,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_number from "account_raw"
+    )
+    )
+ as account_number
+   from
+       account_raw
+    )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+    ),
+
+    extra_entries as (
+    select '+' as diff, count, "account_id", "details", "account_number" from actual
+    
+
+    except
+
+
+    select '+' as diff, count, "account_id", "details", "account_number" from expectations),
+
+    missing_entries as (
+    select '-' as diff, count, "account_id", "details", "account_number" from expectations
+    
+
+    except
+
+
+    select '-' as diff, count, "account_id", "details", "account_number" from actual)
+    
+    select * from extra_entries
+    UNION ALL
+    select * from missing_entries
+
+    
+    
+  
+[0m14:04:18.722602 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.0 seconds
+[0m14:04:18.726962 [debug] [Thread-1 (]: Writing injected SQL for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.728160 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns (compile): 14:04:18.524093 => 14:04:18.727873
+[0m14:04:18.728632 [debug] [Thread-1 (]: Began executing node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:04:18.744011 [debug] [Thread-1 (]: Writing runtime sql for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.745016 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.745401 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: BEGIN
+[0m14:04:18.745956 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:18.746339 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:04:18.746812 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+      
+      select * from (select 1) as t where False    
+      
+  
+  
+  
+
+    
+  
+
+      
+    ) dbt_internal_test
+[0m14:04:18.747561 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.749364 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns (execute): 14:04:18.728912 => 14:04:18.749126
+[0m14:04:18.749759 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: ROLLBACK
+[0m14:04:18.750302 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: Close
+[0m14:04:18.751096 [info ] [Thread-1 (]: 1 of 3 PASS unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns  [[32mPASS[0m in 0.23s]
+[0m14:04:18.751690 [debug] [Thread-1 (]: Finished running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:04:18.752128 [debug] [Thread-1 (]: Began running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:04:18.752557 [info ] [Thread-1 (]: 2 of 3 START test unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2  [RUN]
+[0m14:04:18.753334 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns, now test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2)
+[0m14:04:18.753725 [debug] [Thread-1 (]: Began compiling node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:04:18.789665 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.790298 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+
+    
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+UNION ALL
+select null as account_id, 'bac' as details, null as account_number
+    
+  
+[0m14:04:18.790999 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:04:18.809451 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.0 seconds
+[0m14:04:18.817521 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.818208 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+
+    select * FROM 
+      (select count(1) as expectation_count from (
+        select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+UNION ALL
+select null as account_id, 'bac' as details, null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+      ) as exp) as exp_count,
+      (select count(1) as actual_count from (
+        select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+UNION ALL
+select 2 as account_id, 'bac' as details ,2 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select  details,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_id from "account_raw"
+    )
+    )
+ as account_id,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_number from "account_raw"
+    )
+    )
+ as account_number
+   from
+       account_raw
+    )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+      ) as act) as act_count
+  
+[0m14:04:18.821456 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.824510 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.825171 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+
+    with expectations as (
+      select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+UNION ALL
+select null as account_id, 'bac' as details, null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+    ),
+    actual as (
+      select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+UNION ALL
+select 2 as account_id, 'bac' as details ,2 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select  details,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_id from "account_raw"
+    )
+    )
+ as account_id,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_number from "account_raw"
+    )
+    )
+ as account_number
+   from
+       account_raw
+    )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+    ),
+
+    extra_entries as (
+    select '+' as diff, count, "account_id", "details", "account_number" from actual
+    
+
+    except
+
+
+    select '+' as diff, count, "account_id", "details", "account_number" from expectations),
+
+    missing_entries as (
+    select '-' as diff, count, "account_id", "details", "account_number" from expectations
+    
+
+    except
+
+
+    select '-' as diff, count, "account_id", "details", "account_number" from actual)
+    
+    select * from extra_entries
+    UNION ALL
+    select * from missing_entries
+
+    
+    
+  
+[0m14:04:18.826920 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.0 seconds
+[0m14:04:18.840747 [info ] [Thread-1 (]: [0m[31mMODEL: [0m[33maccount[0m
+[0m14:04:18.841770 [info ] [Thread-1 (]: [0m[31mTEST:  [0m[33mshould_set_token_if_hash_value_is_present_in_lookup_for_pan_columns[0m
+[0m14:04:18.842601 [info ] [Thread-1 (]: [0m[31mERROR: [0m[33mRows mismatch:[0m
+[0m14:04:18.869732 [info ] [Thread-1 (]: | diff | count | [0m[31maccount_id[0m | details | [0m[31maccount_number[0m |[0m
+[0m14:04:18.871287 [info ] [Thread-1 (]: | ---- | ----- | [0m[31m----------[0m | ------- | [0m[31m--------------[0m |[0m
+[0m14:04:18.878546 [info ] [Thread-1 (]: | +    |     1 | [0m[31mtoken1    [0m | bac     | [0m[31mtoken1        [0m |[0m
+[0m14:04:18.881342 [info ] [Thread-1 (]: | -    |     1 | [0m[31m      None[0m | bac     | [0m[31m          None[0m |[0m
+[0m14:04:18.882626 [debug] [Thread-1 (]: Writing injected SQL for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.884448 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2 (compile): 14:04:18.753966 => 14:04:18.883702
+[0m14:04:18.886215 [debug] [Thread-1 (]: Began executing node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:04:18.891237 [debug] [Thread-1 (]: Writing runtime sql for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.892427 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.892973 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: BEGIN
+[0m14:04:18.893764 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:18.894288 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:04:18.894921 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+        
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    
+  
+
+    
+  
+  
+  
+    
+    
+    
+      
+      
+      
+      
+
+      
+
+    
+      
+      
+      
+      
+
+      
+
+      
+    
+  
+    
+    
+    
+      
+      
+      
+      
+
+      
+
+    
+      
+      
+      
+      
+
+      
+
+      
+    
+  
+    
+    
+    
+      
+      
+      
+      
+
+      
+        
+        
+      
+
+    
+      
+      
+      
+      
+
+      
+        
+          
+        
+        
+      
+
+      
+    
+  
+    
+    
+    
+      
+      
+      
+      
+
+      
+        
+        
+      
+
+    
+      
+      
+      
+      
+
+      
+        
+        
+      
+
+      
+    
+  
+    
+    
+    
+      
+      
+      
+      
+
+      
+        
+        
+      
+
+    
+      
+      
+      
+      
+
+      
+        
+          
+        
+        
+      
+
+      
+    
+  
+
+  
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+  
+  
+
+
+  
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+    
+    
+    
+      
+    
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+      
+        
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+        
+      
+    
+      
+      
+        
+      
+      
+      
+        
+      
+    
+      
+      
+        
+      
+      
+      
+        
+      
+    
+      
+      
+        
+      
+      
+      
+        
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+        
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+        
+      
+    
+      
+      
+        
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+  
+
+  
+
+      
+      
+      select * from (select 1) as t where True    
+      
+  
+  
+  
+
+    
+  
+
+      
+    ) dbt_internal_test
+[0m14:04:18.896649 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.899788 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2 (execute): 14:04:18.887524 => 14:04:18.899313
+[0m14:04:18.900410 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: ROLLBACK
+[0m14:04:18.901151 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: Close
+[0m14:04:18.902259 [error] [Thread-1 (]: 2 of 3 FAIL 1 unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2  [[31mFAIL 1[0m in 0.15s]
+[0m14:04:18.903239 [debug] [Thread-1 (]: Finished running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:04:18.904075 [debug] [Thread-1 (]: Began running node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:04:18.904736 [info ] [Thread-1 (]: 3 of 3 START test unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns  [RUN]
+[0m14:04:18.905645 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2, now test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns)
+[0m14:04:18.906175 [debug] [Thread-1 (]: Began compiling node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:04:18.962884 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:18.963549 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+
+    
+select null as account_id, 'abc' as details,null as account_number
+    
+  
+[0m14:04:18.964136 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:04:18.978986 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.986828 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:18.987470 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+
+    select * FROM 
+      (select count(1) as expectation_count from (
+        select count(1) as count, "account_id", "details", "account_number" from (
+select null as account_id, 'abc' as details,null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+      ) as exp) as exp_count,
+      (select count(1) as actual_count from (
+        select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+    select 3 as account_id, 'abc' as details,4 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+UNION ALL
+select 2 as hash, 'token2' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select  details,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_id from "account_raw"
+    )
+    )
+ as account_id,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_number from "account_raw"
+    )
+    )
+ as account_number
+   from
+       account_raw
+    )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+      ) as act) as act_count
+  
+[0m14:04:18.990143 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:18.993771 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:18.994428 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+
+    with expectations as (
+      select count(1) as count, "account_id", "details", "account_number" from (
+select null as account_id, 'abc' as details,null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+    ),
+    actual as (
+      select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+    select 3 as account_id, 'abc' as details,4 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+UNION ALL
+select 2 as hash, 'token2' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select  details,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_id from "account_raw"
+    )
+    )
+ as account_id,
+   
+    (
+    select token
+        from "DBT_CTE__hash_token_lkp"
+         where hash in (
+            select account_number from "account_raw"
+    )
+    )
+ as account_number
+   from
+       account_raw
+    )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+    ),
+
+    extra_entries as (
+    select '+' as diff, count, "account_id", "details", "account_number" from actual
+    
+
+    except
+
+
+    select '+' as diff, count, "account_id", "details", "account_number" from expectations),
+
+    missing_entries as (
+    select '-' as diff, count, "account_id", "details", "account_number" from expectations
+    
+
+    except
+
+
+    select '-' as diff, count, "account_id", "details", "account_number" from actual)
+    
+    select * from extra_entries
+    UNION ALL
+    select * from missing_entries
+
+    
+    
+  
+[0m14:04:18.996522 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.0 seconds
+[0m14:04:18.999751 [debug] [Thread-1 (]: Writing injected SQL for node "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:19.000800 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns (compile): 14:04:18.906498 => 14:04:19.000471
+[0m14:04:19.001305 [debug] [Thread-1 (]: Began executing node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:04:19.004849 [debug] [Thread-1 (]: Writing runtime sql for node "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:19.005831 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:19.006318 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: BEGIN
+[0m14:04:19.007026 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:19.007515 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:04:19.008099 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+      
+      select * from (select 1) as t where False    
+      
+  
+  
+  
+
+    
+  
+
+      
+    ) dbt_internal_test
+[0m14:04:19.008929 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:04:19.010624 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns (execute): 14:04:19.001632 => 14:04:19.010312
+[0m14:04:19.011194 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: ROLLBACK
+[0m14:04:19.012186 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: Close
+[0m14:04:19.013315 [info ] [Thread-1 (]: 3 of 3 PASS unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns  [[32mPASS[0m in 0.11s]
+[0m14:04:19.014159 [debug] [Thread-1 (]: Finished running node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:04:19.016473 [debug] [MainThread]: Using postgres connection "master"
+[0m14:04:19.016975 [debug] [MainThread]: On master: BEGIN
+[0m14:04:19.017376 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:04:19.031440 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m14:04:19.032125 [debug] [MainThread]: On master: COMMIT
+[0m14:04:19.032789 [debug] [MainThread]: Using postgres connection "master"
+[0m14:04:19.034182 [debug] [MainThread]: On master: COMMIT
+[0m14:04:19.035424 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m14:04:19.036101 [debug] [MainThread]: On master: Close
+[0m14:04:19.037423 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:04:19.037973 [debug] [MainThread]: Connection 'test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns' was properly closed.
+[0m14:04:19.038464 [info ] [MainThread]: 
+[0m14:04:19.038950 [info ] [MainThread]: Finished running 3 tests in 0 hours 0 minutes and 0.68 seconds (0.68s).
+[0m14:04:19.040135 [debug] [MainThread]: Command end result
+[0m14:04:19.058899 [info ] [MainThread]: 
+[0m14:04:19.059833 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m14:04:19.060460 [info ] [MainThread]: 
+[0m14:04:19.061787 [error] [MainThread]: [31mFailure in test unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2 (tests/unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2.sql)[0m
+[0m14:04:19.064102 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m14:04:19.065388 [info ] [MainThread]: 
+[0m14:04:19.066194 [info ] [MainThread]:   compiled Code at target/compiled/postgres_dbt_project/tests/unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2.sql
+[0m14:04:19.067095 [info ] [MainThread]: 
+[0m14:04:19.067818 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+[0m14:04:19.070198 [debug] [MainThread]: Resource report: {"command_name": "test", "command_wall_clock_time": 2.874677, "process_user_time": 4.409664, "process_kernel_time": 0.421461, "process_mem_max_rss": "119214080", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:04:19.071001 [debug] [MainThread]: Command `dbt test` failed at 14:04:19.070792 after 2.88 seconds
+[0m14:04:19.071592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068dff10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068e96d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10693b050>]}
+[0m14:04:19.072131 [debug] [MainThread]: Flushing usage events
+[0m14:06:48.340291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5a56d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b602250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6028d0>]}
+
+
+============================== 14:06:48.345562 | 9e919c15-b961-4f62-9187-9ea693a16729 ==============================
+[0m14:06:48.345562 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:06:48.346248 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/manishaj/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/manishaj/gpn/unit_testing_dbt/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt test --select tag:unit-test --vars {"client_id":"2221"}', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:06:48.550228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9e919c15-b961-4f62-9187-9ea693a16729', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb00f10>]}
+[0m14:06:48.630478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9e919c15-b961-4f62-9187-9ea693a16729', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6c86d0>]}
+[0m14:06:48.631635 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m14:06:48.671578 [debug] [MainThread]: checksum: 95db31d823afa5825a9f9d4ebd87e519c2a8b05013bdfb98736c11cb2425d270, vars: {'client_id': '2221'}, profile: , target: , version: 1.7.9
+[0m14:06:48.757943 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 3 files changed.
+[0m14:06:48.758712 [debug] [MainThread]: Partial parsing: updated file: postgres_dbt_project://tests/unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns.sql
+[0m14:06:48.759155 [debug] [MainThread]: Partial parsing: updated file: postgres_dbt_project://tests/unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns.sql
+[0m14:06:48.759562 [debug] [MainThread]: Partial parsing: updated file: postgres_dbt_project://tests/unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2.sql
+[0m14:06:48.888176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9e919c15-b961-4f62-9187-9ea693a16729', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcfd250>]}
+[0m14:06:48.902740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9e919c15-b961-4f62-9187-9ea693a16729', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c3a1dd0>]}
+[0m14:06:48.903264 [info ] [MainThread]: Found 3 models, 4 tests, 1 source, 0 exposures, 0 metrics, 593 macros, 0 groups, 0 semantic models
+[0m14:06:48.903697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9e919c15-b961-4f62-9187-9ea693a16729', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bca0110>]}
+[0m14:06:48.905299 [info ] [MainThread]: 
+[0m14:06:48.906137 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m14:06:48.907430 [debug] [ThreadPool]: Acquiring new postgres connection 'list_sample_db_sample_test_2221_rfn_db'
+[0m14:06:48.918408 [debug] [ThreadPool]: Using postgres connection "list_sample_db_sample_test_2221_rfn_db"
+[0m14:06:48.918869 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: BEGIN
+[0m14:06:48.919263 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:06:48.963413 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:48.963932 [debug] [ThreadPool]: Using postgres connection "list_sample_db_sample_test_2221_rfn_db"
+[0m14:06:48.964392 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "connection_name": "list_sample_db_sample_test_2221_rfn_db"} */
+select
+      'sample_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'sample_test_2221_rfn_db'
+    union all
+    select
+      'sample_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'sample_test_2221_rfn_db'
+    union all
+    select
+      'sample_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'sample_test_2221_rfn_db'
+  
+[0m14:06:48.969146 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m14:06:48.971073 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: ROLLBACK
+[0m14:06:48.971644 [debug] [ThreadPool]: On list_sample_db_sample_test_2221_rfn_db: Close
+[0m14:06:48.978290 [debug] [MainThread]: Using postgres connection "master"
+[0m14:06:48.978746 [debug] [MainThread]: On master: BEGIN
+[0m14:06:48.979130 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:06:48.992573 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:48.993027 [debug] [MainThread]: Using postgres connection "master"
+[0m14:06:48.993492 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m14:06:49.021466 [debug] [MainThread]: SQL status: SELECT 64 in 0.0 seconds
+[0m14:06:49.024377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9e919c15-b961-4f62-9187-9ea693a16729', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcd3450>]}
+[0m14:06:49.024822 [debug] [MainThread]: On master: ROLLBACK
+[0m14:06:49.025284 [debug] [MainThread]: Using postgres connection "master"
+[0m14:06:49.025606 [debug] [MainThread]: On master: BEGIN
+[0m14:06:49.026102 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:49.026449 [debug] [MainThread]: On master: COMMIT
+[0m14:06:49.026769 [debug] [MainThread]: Using postgres connection "master"
+[0m14:06:49.027076 [debug] [MainThread]: On master: COMMIT
+[0m14:06:49.027491 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m14:06:49.027837 [debug] [MainThread]: On master: Close
+[0m14:06:49.028524 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:06:49.028879 [info ] [MainThread]: 
+[0m14:06:49.031794 [debug] [Thread-1 (]: Began running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:06:49.032254 [info ] [Thread-1 (]: 1 of 3 START test unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns  [RUN]
+[0m14:06:49.032945 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_sample_db_sample_test_2221_rfn_db, now test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns)
+[0m14:06:49.033345 [debug] [Thread-1 (]: Began compiling node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:06:49.197722 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.198333 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+
+    
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+    
+  
+[0m14:06:49.198859 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:06:49.214395 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.241683 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.242327 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+
+    select * FROM 
+      (select count(1) as expectation_count from (
+        select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+      ) as exp) as exp_count,
+      (select count(1) as actual_count from (
+        select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select
+     raw.details,
+   
+
+lkpaccount_id.token as account_id
+    ,
+
+
+lkpaccount_number.token as account_number
+   from
+       "account_raw" as raw
+   
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_id on
+    lkpaccount_id.hash=raw.account_id
+        
+
+    
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_number on
+    lkpaccount_number.hash=raw.account_number )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+      ) as act) as act_count
+  
+[0m14:06:49.244777 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.247867 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.248531 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+
+    with expectations as (
+      select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+    ),
+    actual as (
+      select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select
+     raw.details,
+   
+
+lkpaccount_id.token as account_id
+    ,
+
+
+lkpaccount_number.token as account_number
+   from
+       "account_raw" as raw
+   
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_id on
+    lkpaccount_id.hash=raw.account_id
+        
+
+    
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_number on
+    lkpaccount_number.hash=raw.account_number )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+    ),
+
+    extra_entries as (
+    select '+' as diff, count, "account_id", "details", "account_number" from actual
+    
+
+    except
+
+
+    select '+' as diff, count, "account_id", "details", "account_number" from expectations),
+
+    missing_entries as (
+    select '-' as diff, count, "account_id", "details", "account_number" from expectations
+    
+
+    except
+
+
+    select '-' as diff, count, "account_id", "details", "account_number" from actual)
+    
+    select * from extra_entries
+    UNION ALL
+    select * from missing_entries
+
+    
+    
+  
+[0m14:06:49.250180 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.0 seconds
+[0m14:06:49.255945 [debug] [Thread-1 (]: Writing injected SQL for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.256999 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns (compile): 14:06:49.033610 => 14:06:49.256663
+[0m14:06:49.257519 [debug] [Thread-1 (]: Began executing node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:06:49.276220 [debug] [Thread-1 (]: Writing runtime sql for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.277146 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.277625 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: BEGIN
+[0m14:06:49.278354 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:49.278886 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"
+[0m14:06:49.279378 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+      
+      select * from (select 1) as t where False    
+      
+  
+  
+  
+
+    
+  
+
+      
+    ) dbt_internal_test
+[0m14:06:49.280191 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.282414 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns (execute): 14:06:49.257831 => 14:06:49.282112
+[0m14:06:49.282914 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: ROLLBACK
+[0m14:06:49.283625 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns: Close
+[0m14:06:49.284726 [info ] [Thread-1 (]: 1 of 3 PASS unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns  [[32mPASS[0m in 0.25s]
+[0m14:06:49.285537 [debug] [Thread-1 (]: Finished running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns
+[0m14:06:49.286115 [debug] [Thread-1 (]: Began running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:06:49.286716 [info ] [Thread-1 (]: 2 of 3 START test unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2  [RUN]
+[0m14:06:49.287643 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns, now test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2)
+[0m14:06:49.288258 [debug] [Thread-1 (]: Began compiling node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:06:49.336603 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.337244 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+
+    
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+UNION ALL
+select null as account_id, 'bac' as details, null as account_number
+    
+  
+[0m14:06:49.337779 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:06:49.356001 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.0 seconds
+[0m14:06:49.365691 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.366404 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+
+    select * FROM 
+      (select count(1) as expectation_count from (
+        select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+UNION ALL
+select null as account_id, 'bac' as details, null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+      ) as exp) as exp_count,
+      (select count(1) as actual_count from (
+        select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+UNION ALL
+select 2 as account_id, 'bac' as details ,2 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select
+     raw.details,
+   
+
+lkpaccount_id.token as account_id
+    ,
+
+
+lkpaccount_number.token as account_number
+   from
+       "account_raw" as raw
+   
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_id on
+    lkpaccount_id.hash=raw.account_id
+        
+
+    
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_number on
+    lkpaccount_number.hash=raw.account_number )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+      ) as act) as act_count
+  
+[0m14:06:49.369066 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.372451 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.373160 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+
+    with expectations as (
+      select count(1) as count, "account_id", "details", "account_number" from (
+select 'token1' as account_id, 'abc' as details, 'token1' as account_number
+UNION ALL
+select null as account_id, 'bac' as details, null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+    ),
+    actual as (
+      select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+select 1 as account_id, 'abc' as details ,1 as account_number
+UNION ALL
+select 2 as account_id, 'bac' as details ,2 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select
+     raw.details,
+   
+
+lkpaccount_id.token as account_id
+    ,
+
+
+lkpaccount_number.token as account_number
+   from
+       "account_raw" as raw
+   
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_id on
+    lkpaccount_id.hash=raw.account_id
+        
+
+    
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_number on
+    lkpaccount_number.hash=raw.account_number )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+    ),
+
+    extra_entries as (
+    select '+' as diff, count, "account_id", "details", "account_number" from actual
+    
+
+    except
+
+
+    select '+' as diff, count, "account_id", "details", "account_number" from expectations),
+
+    missing_entries as (
+    select '-' as diff, count, "account_id", "details", "account_number" from expectations
+    
+
+    except
+
+
+    select '-' as diff, count, "account_id", "details", "account_number" from actual)
+    
+    select * from extra_entries
+    UNION ALL
+    select * from missing_entries
+
+    
+    
+  
+[0m14:06:49.375157 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.0 seconds
+[0m14:06:49.378898 [debug] [Thread-1 (]: Writing injected SQL for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.380128 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2 (compile): 14:06:49.288597 => 14:06:49.379770
+[0m14:06:49.380685 [debug] [Thread-1 (]: Began executing node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:06:49.384595 [debug] [Thread-1 (]: Writing runtime sql for node "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.385809 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.386367 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: BEGIN
+[0m14:06:49.387234 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:49.387878 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"
+[0m14:06:49.388508 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+      
+      select * from (select 1) as t where False    
+      
+  
+  
+  
+
+    
+  
+
+      
+    ) dbt_internal_test
+[0m14:06:49.389453 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.391435 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2 (execute): 14:06:49.381019 => 14:06:49.391097
+[0m14:06:49.392002 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: ROLLBACK
+[0m14:06:49.392688 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2: Close
+[0m14:06:49.393914 [info ] [Thread-1 (]: 2 of 3 PASS unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2  [[32mPASS[0m in 0.11s]
+[0m14:06:49.394775 [debug] [Thread-1 (]: Finished running node test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2
+[0m14:06:49.395387 [debug] [Thread-1 (]: Began running node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:06:49.395955 [info ] [Thread-1 (]: 3 of 3 START test unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns  [RUN]
+[0m14:06:49.397013 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.postgres_dbt_project.unit_test_account_should_pick_up_token_based_on_hash_value_for_pan_columns2, now test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns)
+[0m14:06:49.397556 [debug] [Thread-1 (]: Began compiling node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:06:49.447455 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.448166 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+
+    
+select null as account_id, 'abc' as details,null as account_number
+    
+  
+[0m14:06:49.448731 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:06:49.464813 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.473142 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.473827 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+
+    select * FROM 
+      (select count(1) as expectation_count from (
+        select count(1) as count, "account_id", "details", "account_number" from (
+select null as account_id, 'abc' as details,null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+      ) as exp) as exp_count,
+      (select count(1) as actual_count from (
+        select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+    select 3 as account_id, 'abc' as details,4 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+UNION ALL
+select 2 as hash, 'token2' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select
+     raw.details,
+   
+
+lkpaccount_id.token as account_id
+    ,
+
+
+lkpaccount_number.token as account_number
+   from
+       "account_raw" as raw
+   
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_id on
+    lkpaccount_id.hash=raw.account_id
+        
+
+    
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_number on
+    lkpaccount_number.hash=raw.account_number )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+      ) as act) as act_count
+  
+[0m14:06:49.476410 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.479640 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.480362 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+
+    with expectations as (
+      select count(1) as count, "account_id", "details", "account_number" from (
+select null as account_id, 'abc' as details,null as account_number
+    ) as s group by "account_id", "details", "account_number"
+  
+    ),
+    actual as (
+      select count(1) as count, "account_id", "details", "account_number" from ( 
+      with
+      "account_raw" as (
+    select 3 as account_id, 'abc' as details,4 as account_number
+    ),
+"DBT_CTE__hash_token_lkp" as (
+select 1 as hash, 'token1' as token
+UNION ALL
+select 2 as hash, 'token2' as token
+    )
+
+    select * from (-- depends_on: "DBT_CTE__hash_token_lkp"
+
+with source_data as (
+    select
+     raw.details,
+   
+
+lkpaccount_id.token as account_id
+    ,
+
+
+lkpaccount_number.token as account_number
+   from
+       "account_raw" as raw
+   
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_id on
+    lkpaccount_id.hash=raw.account_id
+        
+
+    
+
+    LEFT JOIN "DBT_CTE__hash_token_lkp" as lkpaccount_number on
+    lkpaccount_number.hash=raw.account_number )
+select *
+from source_data 
+ ) as t ) as s group by "account_id", "details", "account_number"
+  
+    ),
+
+    extra_entries as (
+    select '+' as diff, count, "account_id", "details", "account_number" from actual
+    
+
+    except
+
+
+    select '+' as diff, count, "account_id", "details", "account_number" from expectations),
+
+    missing_entries as (
+    select '-' as diff, count, "account_id", "details", "account_number" from expectations
+    
+
+    except
+
+
+    select '-' as diff, count, "account_id", "details", "account_number" from actual)
+    
+    select * from extra_entries
+    UNION ALL
+    select * from missing_entries
+
+    
+    
+  
+[0m14:06:49.482128 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.0 seconds
+[0m14:06:49.485563 [debug] [Thread-1 (]: Writing injected SQL for node "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.486840 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns (compile): 14:06:49.397885 => 14:06:49.486470
+[0m14:06:49.487462 [debug] [Thread-1 (]: Began executing node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:06:49.491119 [debug] [Thread-1 (]: Writing runtime sql for node "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.492144 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.492673 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: BEGIN
+[0m14:06:49.493441 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:49.493963 [debug] [Thread-1 (]: Using postgres connection "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"
+[0m14:06:49.494492 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "postgres_dbt_project", "target_name": "dev", "node_id": "test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- depends_on: "DBT_CTE__hash_token_lkp"
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+  
+  
+  
+  
+  
+
+      
+      
+      
+      
+      
+
+      
+      
+      select * from (select 1) as t where False    
+      
+  
+  
+  
+
+    
+  
+
+      
+    ) dbt_internal_test
+[0m14:06:49.495368 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m14:06:49.497182 [debug] [Thread-1 (]: Timing info for test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns (execute): 14:06:49.487800 => 14:06:49.496859
+[0m14:06:49.497726 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: ROLLBACK
+[0m14:06:49.498488 [debug] [Thread-1 (]: On test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns: Close
+[0m14:06:49.499586 [info ] [Thread-1 (]: 3 of 3 PASS unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns  [[32mPASS[0m in 0.10s]
+[0m14:06:49.500399 [debug] [Thread-1 (]: Finished running node test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns
+[0m14:06:49.502173 [debug] [MainThread]: Using postgres connection "master"
+[0m14:06:49.502634 [debug] [MainThread]: On master: BEGIN
+[0m14:06:49.503060 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:06:49.521488 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m14:06:49.523335 [debug] [MainThread]: On master: COMMIT
+[0m14:06:49.523890 [debug] [MainThread]: Using postgres connection "master"
+[0m14:06:49.524348 [debug] [MainThread]: On master: COMMIT
+[0m14:06:49.525335 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m14:06:49.527068 [debug] [MainThread]: On master: Close
+[0m14:06:49.528782 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:06:49.529380 [debug] [MainThread]: Connection 'test.postgres_dbt_project.unit_test_account_should_set_as_null_if_hash_value_is_not_present_in_lookup_for_pan_columns' was properly closed.
+[0m14:06:49.529981 [info ] [MainThread]: 
+[0m14:06:49.530765 [info ] [MainThread]: Finished running 3 tests in 0 hours 0 minutes and 0.62 seconds (0.62s).
+[0m14:06:49.532138 [debug] [MainThread]: Command end result
+[0m14:06:49.613208 [info ] [MainThread]: 
+[0m14:06:49.613832 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:06:49.614417 [info ] [MainThread]: 
+[0m14:06:49.614986 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m14:06:49.617144 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 1.3353407, "process_user_time": 2.909843, "process_kernel_time": 0.401225, "process_mem_max_rss": "111833088", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:06:49.617794 [debug] [MainThread]: Command `dbt test` succeeded at 14:06:49.617618 after 1.34 seconds
+[0m14:06:49.618330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107595e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074d6150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10764cb90>]}
+[0m14:06:49.618847 [debug] [MainThread]: Flushing usage events

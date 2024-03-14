@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+  - name: city
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table jhggfhfh"
+        tests:
+          - unique
+          - not_null
+  - name: account
+  - name: account_raw
+  - name: account_v2
