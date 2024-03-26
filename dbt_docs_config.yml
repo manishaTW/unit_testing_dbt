@@ -1,3 +1,4 @@
+# note resuce the existing config.yml from cpm-core
 config:
   - "consumer": '{"client_id":"2220"}'
   - "commercial": '{"client_id":"2221"}'
